@@ -2,6 +2,8 @@
 
 Code originally from the Hex-Rays SDK examples. I have made a solution to compile it for convenience since IDAPython's copy constructor for `cexpr_t` seems broken, breaking the Python version.
 
+Note: you should consider using https://github.com/igogo-x86/HexRaysPyTools instead, since it offers this functionality plus a lot more features.
+
 # Compiling Notes
 
 The following system environment variables should be set before running Visual Studio, or in the Property Manager by editing `PropertySheet.props`:
